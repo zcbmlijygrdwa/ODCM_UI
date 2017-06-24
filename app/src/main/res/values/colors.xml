@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8a8eff</color>
+    <color name="colorPrimaryDark">#5263e5</color>
+    <color name="colorAccent">#a4aefc</color>
+
+    <color name="colorBreakLight">#e58080</color>
+    <color name="colorBreak">#d64242</color>
+    <color name="colorAccelerateLight">#97e580</color>
+    <color name="colorAccelerate">#79ce42</color>
+    <color name="colorTurningLight">#e1e580</color>
+    <color name="colorTurning">#cec042</color>
+
+</resources>

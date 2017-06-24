@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="zhenyuyang.ucsb.edu.odcm_ui.Settings">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:padding="35dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_settingsTitle_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Alert" />
+
+        <TextView
+            android:id="@+id/textView_settingsDetail_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Turn on/off alert" />
+
+        <Switch
+            android:id="@+id/switch_alert"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="35dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_settingsTitle_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Alert Sensitivity" />
+
+        <TextView
+            android:id="@+id/textView_settingsDetail_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How sensitive the alert is?" />
+
+        <nl.dionsegijn.steppertouch.StepperTouch
+            android:id="@+id/stepperTouch_2"
+            android:layout_marginTop="10dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
